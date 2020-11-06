@@ -1,8 +1,8 @@
 server:
-  port: 3455
+  port: 3456
 
 info:
-  tsts: '我是3455'
+  tsts: '我是3456'
 
 eureka:
   instance:

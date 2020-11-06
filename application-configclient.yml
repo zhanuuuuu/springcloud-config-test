@@ -1,0 +1,15 @@
+server:
+  port: 3455
+
+info:
+  tsts: '我是3455'
+
+eureka:
+  instance:
+    hostname: hlpay-config-client
+    prefer-ip-address: true         #访问实例是时显示ip地址
+  client:
+    service-url:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://localhost:7001/eureka
